@@ -1,11 +1,14 @@
-# This is a sample Python script.
+# Type Conversion
+"""
+birth_year = input("Birth Year: ")  # What we receive from terminal is always a string.
+print(type(birth_year))
+age = 2024 - int(birth_year)
+print(type(age))
+print(age)
+"""
 
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
-
-name = input("What is your name? ")
-favorite_color = input("What is your favorite color? ")
-print(f"{name} likes color {favorite_color}")
-
-
-
+# Exercise
+weight_in_pounds = input("What is your weight in pounds? ")
+conversion_rate = 0.453592
+weight_in_kilos = float(weight_in_pounds) * conversion_rate
+print(weight_in_kilos)
