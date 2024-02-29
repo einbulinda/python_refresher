@@ -1,14 +1,29 @@
-# Type Conversion
-"""
-birth_year = input("Birth Year: ")  # What we receive from terminal is always a string.
-print(type(birth_year))
-age = 2024 - int(birth_year)
-print(type(age))
-print(age)
-"""
+# Strings
+name = 'Jennifer'
+# print(name[1:-1])  # square notation for strings.
 
-# Exercise
-weight_in_pounds = input("What is your weight in pounds? ")
-conversion_rate = 0.453592
-weight_in_kilos = float(weight_in_pounds) * conversion_rate
-print(weight_in_kilos)
+# Formatted Strings
+first = 'Einstein'
+last = 'Bulinda'
+message = f"{first} [{last}] is a coder."  # Formatted String.
+# print(message)
+
+course = "Python for beginners"
+
+# print(len(course))
+
+# We can use len() to enforce a limit to user input.
+# Can be used to count the number of items in a list.
+
+# A method is a function that belongs to a specific object.
+
+# print(course.upper())  # Does not modify the original string.
+
+print(course.find('beginners'))  # It is case-sensitive.
+
+print(course.replace('beginners', 'Absolute Beginners'))
+
+# In Operator
+print('Python' in course)  # Returns a boolean value
+
+
