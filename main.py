@@ -1,18 +1,42 @@
-import math
-# Arithmetic
+"""
+if it's hot
+    It's a hot day
+    Drink plenty of water
+otherwise if it's cold
+    It's a cold day
+    Wear warm clothes
+otherwise
+    It's a lovely day.
+"""
+'''
+is_hot = False
+is_cold = True
 
-# Augmented Assignment Operator +=, -=
-# Exponential 2 ** 3
+if is_hot:
+    print("It's a hot day")
+    print("Drink plenty water")
+elif is_cold:
+    print("It's a cold day")
+    print("Wear warm clothes")
+else:
+    print("It's a lovely day")
+print("Enjoy your day.")
 
-x = 2.9
+'''
 
-# print(round(x))
+# Exercise
+'''
+Price of a house is 1M
+If a buyer has good credit,
+    they need to put down 10%
+Otherwise
+    They need to put down 20%
+Print the down payment'''
 
-# print(abs(-2.9))
+has_good_credit = False
+price = 1_000_000
 
-# Math module
-print(math.ceil(x))
-
-print(math.floor(x))
-
-# to learn more google "python 3 math module" for a documentation.
+if has_good_credit:
+    print(f"Down payment: Ksh. {price * 0.1}")
+else:
+    print(f"Down payment: Ksh. {price * 0.2}")
