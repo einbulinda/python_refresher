@@ -1,29 +1,18 @@
-# Strings
-name = 'Jennifer'
-# print(name[1:-1])  # square notation for strings.
+import math
+# Arithmetic
 
-# Formatted Strings
-first = 'Einstein'
-last = 'Bulinda'
-message = f"{first} [{last}] is a coder."  # Formatted String.
-# print(message)
+# Augmented Assignment Operator +=, -=
+# Exponential 2 ** 3
 
-course = "Python for beginners"
+x = 2.9
 
-# print(len(course))
+# print(round(x))
 
-# We can use len() to enforce a limit to user input.
-# Can be used to count the number of items in a list.
+# print(abs(-2.9))
 
-# A method is a function that belongs to a specific object.
+# Math module
+print(math.ceil(x))
 
-# print(course.upper())  # Does not modify the original string.
+print(math.floor(x))
 
-print(course.find('beginners'))  # It is case-sensitive.
-
-print(course.replace('beginners', 'Absolute Beginners'))
-
-# In Operator
-print('Python' in course)  # Returns a boolean value
-
-
+# to learn more google "python 3 math module" for a documentation.
