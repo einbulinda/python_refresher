@@ -40,3 +40,15 @@ if has_good_credit:
     print(f"Down payment: Ksh. {price * 0.1}")
 else:
     print(f"Down payment: Ksh. {price * 0.2}")
+
+
+# Keys
+# equal to ==
+# not equal !=
+# object identity  is
+# and, or, not
+
+a = [1, 2, 3]
+b = [1, 2, 3]
+
+# print(a is b)  # checks object identity.
