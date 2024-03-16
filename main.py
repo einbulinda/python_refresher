@@ -1,54 +1,45 @@
-"""
-if it's hot
-    It's a hot day
-    Drink plenty of water
-otherwise if it's cold
-    It's a cold day
-    Wear warm clothes
-otherwise
-    It's a lovely day.
-"""
-'''
-is_hot = False
-is_cold = True
-
-if is_hot:
-    print("It's a hot day")
-    print("Drink plenty water")
-elif is_cold:
-    print("It's a cold day")
-    print("Wear warm clothes")
-else:
-    print("It's a lovely day")
-print("Enjoy your day.")
+nums = [1, 2, 3, 4, 5]
 
 '''
-
-# Exercise
+for num in nums:
+    if num == 3:
+        print('Found 3')
+        break
+    print(num)
 '''
-Price of a house is 1M
-If a buyer has good credit,
-    they need to put down 10%
-Otherwise
-    They need to put down 20%
-Print the down payment'''
+"""for num in nums:
+    if num == 3:
+        print('Found 3')
+        continue
+    print(num)"""
 
-has_good_credit = False
-price = 1_000_000
+# Break & Continue
 
-if has_good_credit:
-    print(f"Down payment: Ksh. {price * 0.1}")
-else:
-    print(f"Down payment: Ksh. {price * 0.2}")
+# Loop within a Loop
 
+'''for num in nums:
+    for letter in 'abc':
+        print(num, letter)'''
 
-# Keys
-# equal to ==
-# not equal !=
-# object identity  is
-# and, or, not
+# Avoid nested loops
+# Another way to loop is by range kw
 
-a = [1, 2, 3]
-b = [1, 2, 3]
+'''for i in range(1, 10):
+    print(i)'''
 
-# print(a is b)  # checks object identity.
+# While loop - runs until condition evaluates to false
+
+x = 0
+'''while x < 10:
+    if x == 5:
+        break
+    print(x)
+    x += 1'''
+
+# indefinite loop until value is found
+while True:
+    if x == 5:
+        break
+    print(x)
+    x += 1
+
